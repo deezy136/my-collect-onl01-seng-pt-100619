@@ -4,7 +4,7 @@ new_collection = []
 
 i = 0 
 while i < collection.size
-new_collection << yield(collection[i].upcase)
+new_collection << yield(collection[i].upcase.first)
 i+=1
 end 
 new_collection
